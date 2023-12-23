@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💪🏼Protein Intake Calculator💪🏼</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+   
+  <body>
+    <div class="container">
+      <label for="">Protein Intake Calculator💪🏼</label><br />
+      <input type="number" id="Kilogram" placeholder="Kilogram" />
+
+      <select id="proteinPreference">
+        <option disabled selected value="">
+          Select Your Protein Preference
+        </option>
+        <option value="Min">Minimum: 1.2 grams</option>
+        <option value="Mod">Moderate: 1.6 grams</option>
+        <option value="High">High: 2.0 grams</option>
+        <option value="Med High">Fitness Enthusiast: 2.2 grams</option>
+        <option value="BodyBuilder">
+          Bodybuilder/Elite Athlete: 2.7 grams
+        </option></select
+      ><br />
+      <button onclick="Calculate" id="Calculate">Calculate</button>
+      <p id="Result">Your suggested protein intake per day is:</p>
+    </div>
+  </body>
+  
+</html>

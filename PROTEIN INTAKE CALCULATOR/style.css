@@ -1,0 +1,107 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
+  }
+  .container {
+    background: rgba(218, 201, 201, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(60, 61, 64, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(35, 29, 29, 0.491);
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto auto auto;
+    height: 600px;
+    width: 350px;
+    align-content: center;
+  }
+  input {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 30px auto;  
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  input::placeholder{
+    color: white;
+  }
+
+  input:focus {
+    border: none;
+    background-color: #212121;
+    
+    box-shadow: 5px 5px #888888;
+  }
+  select{
+    border-radius: 30px;
+    border: none;
+    align-items: center;
+    text-align:center ;    
+    background-color: #212121;
+    color: white;
+  }
+  label{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+  }
+  #proteinPreference {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 30px auto;  
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    text-align: center;    
+    padding: 20px;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+ .container{
+  margin-top: 0;
+ }
+}
